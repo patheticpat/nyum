@@ -1,5 +1,7 @@
 # nyum
 
+[![Build and Deploy](https://github.com/patheticpat/nyum/actions/workflows/build-ci.yml/badge.svg)](https://github.com/patheticpat/nyum/actions/workflows/build-ci.yml)
+
 *A simple Pandoc-powered static site generator for your recipe collection.*
 
 <img src="_assets/favicon.png" align="right" width="96">
