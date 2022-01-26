@@ -25,33 +25,6 @@
     --ingredient-name-column-width: 10em;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --page-background: black;
-        --background: #202020;
-        --foreground: #eee;
-        --nav: #bbb;
-        --original-title: #bbb;
-        --icons-separator: #404040;
-        --search-bar: #383838;
-        --search-bar-outline: #555;
-        --search-results-separator: #383838;
-        --highlighted-search-result: #181818;
-        --h2: #bbb;
-        --link: #9ae;
-        --attention: #fa7;
-        --horizontal-rule: #484848;
-        --footer: #555;
-    }
-
-    /* accessing the colors defined inside the svg isn't possible when embedded as an image and i don't want to inline them, so this is the best i can do */
-    header .logo,
-    header ul li img,
-    h3 .icons img {
-        filter: invert() hue-rotate(180deg);
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
